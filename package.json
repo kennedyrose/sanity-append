@@ -1,0 +1,13 @@
+{
+  "name": "sanity-append",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "dotenv -e .env node index.js"
+  },
+  "dependencies": {
+    "@sanity/client": "^4.0.1",
+    "dotenv-cli": "^6.0.0"
+  }
+}
